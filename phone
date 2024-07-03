@@ -1,0 +1,88 @@
+getgenv().Settings = {
+    Sniper = {
+        Active = false,
+    
+        Items = {
+            SearchTerminal = {
+                [[ Terminal doesn't support custom keywords. ]],
+                ["Mini Pinata"] = {Class = "Misc", Price = "20%", InventoryLimit = 100},
+                ["Rainbow Huge Cat"] = {Class = "Pet", Price = 123456789},
+                ["Royalty 1"] = {Class = "Charm", Price = "40%", UseCosmicValues = true, InventoryLimit = 25},
+            },
+            ["All Huges"] = {Class = "Pet", Price = "50%", DetectManipulation = true},
+            ["All Titanics"] = {Class = "Pet", Price = "70%", UseCosmicValues = true},
+        },
+        
+        Serverhop = true,
+        TeleportDelay = 7, --// Seconds
+        UseProPlaza = false,
+        RecheckListingsDelay = 1,
+    
+        Webhook = "",
+        Notifications = true,
+        GlobalSnipes = true,
+        RemoveUsername = false,
+        SwitchToSelling = "Low Diamonds (20000000000)" --// TEMP. Low Diamonds, Limits Reached, .. Minutes, N/A
+    },
+
+    Seller = {
+        Active = true,
+
+        Items = {
+            ["Diamonds 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Treasure Hunter 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Lucky Eggs 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Strong Pets 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Criticals 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Magnet 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Walkspeed 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Tap Power 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Coins 2"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Diamonds 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Treasure Hunter 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Lucky Eggs 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Walkspeed 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Strong Pets 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Coins 3"] = {Class = "Enchant", Price = "149", Amount = 5000},
+            ["Criticals 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Tap Power 3"] = {Class = "Enchant", Price = "99", Amount = 5000},
+            ["Diamonds 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Treasure Hunter 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Walkspeed 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Lucky 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Damage 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Coins 1"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Diamonds 2"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Treasure Hunter 2"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Walkspeed 2"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Lucky 2"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Damage 2"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Coins 2"] = {Class = "Potion", Price = "129", Amount = 5000},
+            ["Diamonds 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Treasure Hunter 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Walkspeed 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Lucky 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Damage 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Coins 3"] = {Class = "Potion", Price = "99", Amount = 5000},
+            ["Tnt Crate"] = {Class = "Misc", Price = "30%", Amount = 5000},
+            ["Rainbow"] = {Class = "Fruit", Price = "10%", Amount = 5000},
+            ["Pineapple"] = {Class = "Fruit", Price = "450", Amount = 25000},
+            ["Watermelon"] = {Class = "Fruit", Price = "450", Amount = 25000},
+            ["Orange"] = {Class = "Fruit", Price = "450", Amount = 25000},
+            ["Banana"] = {Class = "Fruit", Price = "450", Amount = 25000},
+            ["Apple"] = {Class = "Fruit", Price = "450", Amount = 25000},
+        },
+
+        Serverhop = true,
+        TeleportDelay = 15, --// Minutes
+        UseProPlaza = false,
+
+        Webhook = "https://discord.com/api/webhooks/1010719967144058971/lu7v7NuuCFg53yXi_jEBgUXvzhbPSzjr1MJfjSlWZ6-ZIKJkJuqR-O_-PIbOdqG6XV85",
+        Notifications = true,
+        RemoveUsername = false,
+        SwitchToSniping = "Item Runout" --// TEMP. Item Runout, Diamond Max, .. Minutes, N/A
+    },
+    
+    [[  ]]
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f05f01a77417ee52d29956defa8037f7.lua"))()
