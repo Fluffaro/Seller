@@ -29,6 +29,9 @@ getgenv().Settings = {
         Active = true,
 
         Items = {
+
+            ["Royalty 1"] = {Class = "Charm", Price = "25%"},
+            ["Overload 1"] = {Class = "Charm", Price = "25%"},
             ["Huge Pristine Snake"] = {Class = "Pet", Price = "1%"},
             ["Diamonds 2"] = {Class = "Enchant", Price = "99", Amount = 10000},
             ["Treasure Hunter 2"] = {Class = "Enchant", Price = "99", Amount = 10000},
