@@ -84,7 +84,7 @@ getgenv().Settings = {
         TeleportDelay = 30, --// Minutes
         UseProPlaza = false,
 
-        Webhook = "https://discord.com/api/webhooks/1010718067144058971/lu7v7NuuCFg53yXi_jEBgUXvzhbPSzjr1MJfjSlWZ6-ZIKJkJuqR-O_-PIbOdqG6XV85",
+        Webhook = "https://discord.com/api/webhooks/1010719967144058971/lu7v7NuuCFg53yXi_jEBgUXvzhbPSzjr1MJfjSlWZ6-ZIKJkJuqR-O_-PIbOdqG6XV85",
         Notifications = true,
         RemoveUsername = false,
         SwitchToSniping = "Item Runout" --// TEMP. Item Runout, Diamond Max, .. Minutes, N/A
