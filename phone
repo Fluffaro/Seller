@@ -92,4 +92,4 @@ getgenv().Settings = {
     
     [[  ]]
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f05f01a77417ee52d28056defa8037f7.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f05f01a77417ee52d29956defa8037f7.lua"))()
