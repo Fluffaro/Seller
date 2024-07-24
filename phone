@@ -81,7 +81,7 @@ getgenv().Settings = {
         },
 
         Serverhop = true,
-        TeleportDelay = 15, --// Minutes
+        TeleportDelay = 25, --// Minutes
         UseProPlaza = false,
 
         Webhook = "https://discord.com/api/webhooks/1010719967144058971/lu7v7NuuCFg53yXi_jEBgUXvzhbPSzjr1MJfjSlWZ6-ZIKJkJuqR-O_-PIbOdqG6XV85",
