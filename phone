@@ -76,7 +76,6 @@ getgenv().Settings = {
             ["Orange"] = {Class = "Fruit", Price = "450", Amount = 10000},
             ["Banana"] = {Class = "Fruit", Price = "450", Amount = 10000},
             ["Apple"] = {Class = "Fruit", Price = "450", Amount = 10000},
-            ["Exclusive Egg 29"] = {Class = "Egg", Price = "10%", Amount = 2},
             ["Hype Egg"] = {Class = "Lootbox", Price = "650000"},
         },
 
