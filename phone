@@ -29,7 +29,6 @@ getgenv().Settings = {
         Active = true,
 
         Items = {
-
             ["Shiny Rainbow Huge Abyssal Jellyfish"] = {Class = "Pet", Price = 0%},
             ["Shiny Rainbow Huge Corrupt Butterfly"] = {Class = "Pet", Price = 0%},
             ["Shiny Rainbow Huge Corrupt Mechatronic Robot"] = {Class = "Pet", Price = 0%},
