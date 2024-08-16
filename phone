@@ -65,6 +65,6 @@ getgenv().Settings = {
         SwitchToSniping = "Item Runout" --// TEMP. Item Runout, Diamond Max, .. Minutes, N/A
     },
     
-    [[  ]]
+    [[ tyy ]]
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f05f01a77417ee52d29956defa8037f7.lua"))()
